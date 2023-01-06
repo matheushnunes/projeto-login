@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body, html{
+        background-image: linear-gradient(to bottom, rgb(104, 50, 136), rgb(75, 148, 161));
+        background-attachment: fixed;
+    }
+    main{
+        position: absolute;
+        width: 70vw;
+        height: 260px;
+    }
+    div#imagem{
+        display: inline-block;
+        width: 35%;
+        height: 100%;
+        margin: 0px;
+    }
+    div#imagem img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    img#cel{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    div#formulario{
+        display: inline-block;
+        width: 59%;
+        height: 100%;
+    }
+}
